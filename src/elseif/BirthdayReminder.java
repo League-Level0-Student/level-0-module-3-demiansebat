@@ -20,9 +20,18 @@ public class BirthdayReminder {
 		// 3. Print out what the user typed
 	System.out.println(answer);
 		// 4. if user asked for "mom"
-	if (answer.equalsIgnoreCase("Aries")) {
+	if (answer.equalsIgnoreCase("mom")) {
 		JOptionPane.showMessageDialog(null,"August 21st" );
 			//print mom's birthday
+	}
+	else if (answer.equalsIgnoreCase("dad")) {
+		JOptionPane.showMessageDialog(null,"June 14th" );
+	}
+	else if (answer.equalsIgnoreCase("kid")) {
+		JOptionPane.showMessageDialog(null,"August 9th" );
+	}
+	else {
+		JOptionPane.showMessageDialog(null, "Sorry, I don't remember that person's birthday...");
 	}
 		// 5. if user asked for "dad"
 			// print dad's birthday

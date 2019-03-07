@@ -15,8 +15,8 @@ public class RobotColorChooser {
 		Robot randy;
 		randy = new Robot();
 		// 3. Ask the user what color they would like the robot to draw
-		for (int i = 0; i < 10; i++) {
-			String color;
+	
+			String color;	for (int i = 0; i < 10; i++) {
 			color = JOptionPane.showInputDialog("What color would you like the shape to be???");
 			// 5. Use an if/else statement to set the pen color that the user requested
 			if (color.equalsIgnoreCase("red")) {
