@@ -3,10 +3,15 @@
 
 package modulo;
 
+import java.awt.Color;
+
+import javax.swing.JOptionPane;
+
 
 /**
 * Fizz Buzz
-* 
+
+
 * In this project, we're going to build FizzBuzz. It's a children's game where
 * you count from 1 to 20. Easy, right? Here's the catch: instead of saying
 * numbers divisible by 3, say "Fizz". And instead of saying numbers divisible
@@ -26,6 +31,10 @@ package modulo;
 **/
 
 public class FizzBuzz {
-
-}
+public static void main(String[] args) {
+	 for (int i = 0; i < 20; i++) {
+	 
+		 if(i%3==0) {
+	 JOptionPane.showMessageDialog(null, "Fizz");
+}}}}
 
